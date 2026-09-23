@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yash Kumar — Computer Science Engineer, Data Analytics Intern, and software developer." />
+  <meta name="theme-color" content="#0b0d12" />
+  <title>Yash Kumar | Computer Science Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">YK<span>.</span></a>
+    <button class="menu-btn" aria-label="Open navigation">☰</button>
+    <nav id="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE • DATA • SOFTWARE</p>
+        <h1>Hi, I'm <span>Yash Kumar.</span></h1>
+        <p class="hero-text">
+          A Computer Science Engineering student who enjoys turning messy data,
+          practical problems, and ideas into useful technology.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work</a>
+          <a class="btn secondary" href="#contact">Let's connect ↗</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/KumarYash-2808" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:YOUR_EMAIL@example.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="terminal-top"><i></i><i></i><i></i><span>yash@portfolio:~</span></div>
+        <pre><code><span class="pink">const</span> yash = {
+  role: <span class="green">"CSE Student"</span>,
+  focus: [
+    <span class="green">"Data Analytics"</span>,
+    <span class="green">"Software Engineering"</span>
+  ],
+  stack: [
+    <span class="green">"Java"</span>, <span class="green">"Python"</span>,
+    <span class="green">"SQL"</span>, <span class="green">"Azure"</span>
+  ],
+  currently: <span class="green">"Building & learning"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="two-col">
+        <div>
+          <h2>Curious by default.<br><span>Practical by design.</span></h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I'm a Computer Science Engineering student at KIIT, Bhubaneswar,
+            interested in software, analytics, cloud technologies, and the space
+            where technology meets business problems.
+          </p>
+          <p>
+            My recent work has involved Azure, Databricks, PySpark, Power BI,
+            fuzzy matching, dashboards, web applications, and computer vision.
+            I like understanding how a system works end-to-end rather than only
+            making one component work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-label">02 / EXPERIENCE</div>
+      <article class="experience-card">
+        <div class="experience-date">MAY — JUL 2026</div>
+        <div>
+          <h3>Data Analytics Intern <span>@ Adani Electricity Mumbai Limited</span></h3>
+          <p class="muted">Electricity Fraud Detection Dashboard</p>
+          <p>
+            Worked on an analytics pipeline to identify potentially fraudulent
+            electricity connections using consumer information and fuzzy
+            matching. Built data transformations with PySpark and Databricks,
+            structured data into Bronze/Silver/Gold layers, and developed
+            Power BI reporting around fraud indicators.
+          </p>
+          <div class="tags">
+            <span>Azure</span><span>Databricks</span><span>PySpark</span>
+            <span>Delta Lake</span><span>Power BI</span><span>Fuzzy Logic</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="section-heading">
+        <h2>Things I've <span>built.</span></h2>
+        <p>Selected academic, personal, and practical projects.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <p class="project-type">DATA ANALYTICS / CLOUD</p>
+            <h3>Electricity Fraud Detection</h3>
+            <p>
+              A data pipeline and dashboard for identifying suspicious new
+              electricity connections using consumer similarity, fuzzy matching,
+              PySpark transformations, and Power BI.
+            </p>
+            <div class="tags"><span>Azure</span><span>Databricks</span><span>PySpark</span><span>Power BI</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <p class="project-type">WEB DEVELOPMENT</p>
+            <h3>Centrixy</h3>
+            <p>
+              Meeting-room booking application with role-based access,
+              calendar scheduling, and a modern web interface.
+            </p>
+            <div class="tags"><span>React</span><span>Tailwind</span><span>Appwrite</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <p class="project-type">COMPUTER VISION</p>
+            <h3>3D Hybrid Monocular Reconstruction</h3>
+            <p>
+              Explored monocular depth estimation, OpenCV/Open3D processing,
+              point-cloud generation, and mesh reconstruction.
+            </p>
+            <div class="tags"><span>Python</span><span>OpenCV</span><span>Open3D</span><span>PyTorch</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <p class="project-type">FULL-STACK / FIREBASE</p>
+            <h3>Campus Eats</h3>
+            <p>
+              Campus food application with authentication, role-based flows,
+              and Firestore-backed application data.
+            </p>
+            <div class="tags"><span>Firebase</span><span>Firestore</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">04 / TOOLKIT</div>
+      <div class="skills-layout">
+        <h2>Technologies I<br><span>work with.</span></h2>
+        <div class="skill-groups">
+          <div class="skill-group"><h4>LANGUAGES</h4><p>Java · Python · SQL · JavaScript · HTML · CSS</p></div>
+          <div class="skill-group"><h4>DATA & CLOUD</h4><p>PySpark · Databricks · Azure · Delta Lake · Power BI</p></div>
+          <div class="skill-group"><h4>DEVELOPMENT</h4><p>React · Tailwind CSS · Firebase · Appwrite · Git</p></div>
+          <div class="skill-group"><h4>CS FUNDAMENTALS</h4><p>OOP · DBMS · Operating Systems · Computer Networks · DSA</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-label">05 / EDUCATION</div>
+      <div class="edu-card">
+        <div>
+          <p class="project-type">2023 — PRESENT</p>
+          <h3>B.Tech — Computer Science & Engineering</h3>
+          <p>KIIT, Bhubaneswar</p>
+        </div>
+        <div class="edu-note">
+          <strong>Also exploring</strong>
+          <span>Data Analytics · Product · Business & Technology</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">06 / CONTACT</div>
+      <div class="contact-box">
+        <p class="eyebrow">HAVE AN IDEA OR AN OPPORTUNITY?</p>
+        <h2>Let's build something<br><span>useful.</span></h2>
+        <a class="email-link" href="mailto:kumaryash2808@gmail.com">kumaryash2808@gmail.com ↗</a>
+        <div class="socials">
+          <a href="https://github.com/KumarYash-2808" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/yash-kumar-2251192a8/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Yash Kumar</span>
+    <span>Designed & built with HTML, CSS & JS.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
