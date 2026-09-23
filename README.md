@@ -1,22 +1,37 @@
-# KumarYash-2808.github.io
+# Yash Kumar — Personal Portfolio
 
-Personal portfolio website for Yash Kumar.
+Welcome to my personal portfolio website.
 
-## Deploy to GitHub Pages
+🌐 **Live Website:** [KumarYash-2808.github.io](https://KumarYash-2808.github.io)
 
-1. Create/open the repository named `KumarYash-2808.github.io`.
-2. Replace the repository contents with these files.
-3. Commit and push to the `main` branch.
-4. In GitHub, open **Settings → Pages**.
-5. Select **Deploy from a branch**, choose `main` and `/ (root)`.
-6. Your site will be available at:
+## About
 
-`https://KumarYash-2808.github.io/`
+I am a Computer Science undergraduate interested in software development, data analytics, and technology.
 
-## Before publishing
+This portfolio showcases my projects, technical skills, experience, and academic work.
 
-Search `YOUR_EMAIL@example.com` in `index.html` and replace it with your email address.
+## Tech Stack
 
-Also replace the LinkedIn placeholder URL with your actual LinkedIn profile.
+* HTML
+* CSS
+* JavaScript
+* Git & GitHub
 
-No build system is required — this is a plain HTML/CSS/JavaScript GitHub Pages site.
+## Featured Areas
+
+* 💻 Software Development
+* 📊 Data Analytics
+* 🤖 Machine Learning
+* ☁️ Cloud Technologies
+
+## Projects
+
+The website includes selected academic, personal, and internship projects, along with details about the technologies and tools used.
+
+## Contact
+
+Feel free to connect with me through the contact links available on my portfolio.
+
+---
+
+Built with HTML, CSS & JavaScript.
